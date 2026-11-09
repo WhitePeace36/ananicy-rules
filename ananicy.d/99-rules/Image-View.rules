@@ -1,0 +1,32 @@
+{ "name": "feh", "type": "Image-View" }
+{ "name": "mirage", "type": "Image-View" }
+{ "name": "shotwell", "type": "Image-View" }
+{ "name": "swayimg", "type": "Image-View" }
+{ "name": "Affinity.exe", "type": "Image-View" }
+{ "name": "Photoshop.exe", "type": "Image-View" }
+{ "name": "PhotoshopPrefsManager.exe", "type": "Image-View" }
+{ "name": "convert.exe", "type": "Image-View" }
+{ "name": "gimp", "type": "Image-View" }
+{ "name": "graphite", "type": "Image-View" }
+{ "name": "inkscape", "type": "Image-View" }
+{ "name": "krita", "type": "Image-View"}
+{ "name": "PixiEditor", "type": "Image-View" }
+{ "name": "eog", "type": "Image-View" }
+{ "name": "imv", "type": "Image-View" }
+{ "name": "imv-x11", "type": "Image-View" }
+{ "name": "imv-dir", "type": "Image-View" }
+{ "name": "imv-msg", "type": "Image-View" }
+{ "name": "imv-wayland", "type": "Image-View" }
+{ "name": "flameshot", "type": "Image-View" }
+{ "name": "grim", "type": "Image-View" }
+{ "name": "shutter", "type": "Image-View" }
+{ "name": "slurp", "type": "Image-View" }
+{ "name": "scrot", "type": "Image-View" }
+{ "name": "maim", "type": "Image-View" }
+{ "name": "slop", "type": "Image-View" }
+{ "name": "spectacle", "type": "Image-View" }
+{ "name": "swappy", "type": "Image-View" }
+{ "name": "xfce4-screenshooter", "type": "Image-View" }
+{ "name": "IMG Factory 1.2.revived.exe", "type": "Image-View" }
+{ "name": "magictxd.exe", "type": "Image-View" }
+{ "name": "qimgv", "type": "Image-View" }

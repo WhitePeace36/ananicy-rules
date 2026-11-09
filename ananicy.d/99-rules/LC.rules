@@ -1,0 +1,7 @@
+{ "name": "pipewire", "type": "LC" }
+{ "name": "pipewire-pulse", "type": "LC" }
+{ "name": "pulseaudio", "type": "LC" }
+{ "name": "kwin_wayland", "type": "LC" }
+{ "name": "kwin_wayland_wrapper", "type": "LC" }
+{ "name": "xwayland", "type": "LC" }
+{ "name": "Xwayland", "type": "LC" }

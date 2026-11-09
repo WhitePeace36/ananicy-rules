@@ -1,0 +1,7 @@
+{ "name": "plasmashell", "nice": 0 }
+{ "name": "thrash-protect", "nice": -12, "ioclass": "realtime" }
+{ "name": "wineserver", "nice": -12, "ioclass": "best-effort", "sched": "normal"}
+{ "name": "services.exe", "nice": 0, "sched": "normal" }
+{ "name": "explorer.exe", "nice": 0, "sched": "normal" }
+{ "name": "winedevice.exe", "nice": 0, "sched": "normal" }
+{ "name": "plugplay.exe", "nice": 0, "sched": "normal" }

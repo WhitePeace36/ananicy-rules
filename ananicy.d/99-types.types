@@ -1,0 +1,18 @@
+{ "type": "Game", "nice": -5, "sched": "normal" }
+{ "type": "kthread", "nice": -20 }
+{ "type": "Normal", "nice": 0, "sched": "normal" }
+{ "type": "Player-Audio", "nice": 0 }
+{ "type": "Player-Video", "nice": 0 }
+{ "type": "Image-View", "nice": 0 }
+{ "type": "Doc-View",   "nice": 0 }
+{ "type": "LowLatency_RT", "nice": 0 }
+{ "type": "LC", "nice": -12, "ioclass": "best-effort" }
+{ "type": "BG_CPUIO", "nice": 16, "ioclass": "idle", "sched": "idle" }
+{ "type": "BG_CPU", "nice": 14, "ioclass": "none", "sched": "idle" }
+{ "type": "Launcher", "nice": 16, "ioclass": "idle", "sched": "normal" }
+{ "type": "Heavy_CPU", "nice": 9, "ioclass": "none" }
+{ "type": "Chat", "nice": 0 }
+{ "type": "Service", "nice": 10, "ioclass": "none"}
+{ "type": "IN_DIFF", "nice": 0, "ioclass": "none" }
+{ "type": "OOM_KILL", "oom_score_adj": 1000 }
+{ "type": "OOM_NO_KILL", "oom_score_adj": -1000 }

@@ -1,0 +1,24 @@
+{ "name": "gdm-session-worker", "type": "Launcher" }
+{ "name": "gnome-session-binary","type": "Launcher"}
+{ "name": "greetd", "type": "Launcher" }
+{ "name": "tuigreet", "type": "Launcher" }
+{ "name": "regreet", "type": "Launcher" }
+{ "name": "nwg-hello", "type": "Launcher" }
+{ "name": "lightdm", "type": "Launcher" }
+{ "name": "ly-dm", "type": "Launcher" }
+{ "name": "plasmalogin", "type": "Launcher" }
+{ "name": "plasmalogin-helper", "type": "Launcher" }
+{ "name": "sddm", "type": "Launcher" }
+{ "name": "sddm-helper", "type": "Launcher" }
+{"name" : "Hydra", "type": "Launcher"}
+{ "name": "EpicGamesLauncher.exe", "type": "Launcher" }
+{ "name": "EALauncher.exe", "type": "Launcher" }
+{ "name": "modrinth-app", "type": "Launcher" }
+{ "name": "modrinth-app-wrapped", "type": "Launcher" }
+{ "name": "bottles", "type": "Launcher" }
+{ "name": "steam", "type": "Launcher" }
+{ "name": "steam.sh", "type": "Launcher" }
+{ "name": "Steam.exe", "type": "Launcher" }
+{ "name": "alvr-launcher", "type": "Launcher" }
+{ "name": "samp.exe", "type": "Launcher" }
+{ "name": "nikke_launcher.exe", "type": "Launcher" }

@@ -1,0 +1,2 @@
+{ "name": "cosmic-workspaces", "type": "OOM_NO_KILL" }
+{ "name": "plasma-discover", "type": "OOM_NO_KILL" }
