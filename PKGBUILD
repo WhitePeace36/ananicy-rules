@@ -1,4 +1,4 @@
-# Maintainer: Your Name <you@example.com>
+# Maintainer: Timon <timon2201@gmail.com>
 #
 # Installs everything under ./ananicy.d/ (next to this PKGBUILD) into
 # /etc/ananicy.d/, keeping the exact same directory layout.
@@ -11,7 +11,8 @@ pkgver=1.0.0
 pkgrel=1
 pkgdesc="Custom rules, types and cgroups for ananicy / ananicy-cpp"
 arch=('any')
-license=('MIT')
+url='https://github.com/WhitePeace36/ananicy-rules'
+license=('GPL-2.0-only')
 optdepends=('ananicy-cpp: daemon that applies these rules')
 
 # Local folder holding the rules (relative to this PKGBUILD)

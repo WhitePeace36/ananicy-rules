@@ -36,6 +36,6 @@ After changing rules, bump `pkgrel` (or `pkgver`) in the PKGBUILD and run
   writes the new one as `.pacnew`.
 - Files are installed `root:root`, mode `644`; directories `755`.
 - If a file path clashes with one shipped by another package (for example
-  `ananicy-cpp` or `cachyos-ananicy-rules`), pacman refuses to install it.
+  `ananicy-cpp` or another rules package), pacman refuses to install it.
   Rename the file or put it in its own subfolder.
 - Clean uninstall: `sudo pacman -R ananicy-rules-custom`
