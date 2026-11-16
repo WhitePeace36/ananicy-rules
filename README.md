@@ -13,7 +13,7 @@ ananicy.d/
     └── Game.rules             -> /usr/share/ananicy.d/99-rules/Game.rules
 ```
 
-It needs [ananicy-cpp](https://github.com/WhitePeace36/ananicy-cpp) 1.4.0 or newer, which loads
+It needs [ananicy-cpp](https://github.com/WhitePeace36/ananicy-cpp-lunar) 1.4.0 or newer, which loads
 `/usr/share/ananicy.d` first and `/etc/ananicy.d` after it.
 
 ## Usage

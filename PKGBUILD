@@ -10,7 +10,7 @@
 # tag v$pkgver). pkgrel stays at 1 here, so the package from the [lunar]
 # repository is never older than a local build and pacman -Syu switches to it.
 #
-# ananicy-cpp 1.4.0 or newer (github.com/WhitePeace36/ananicy-cpp) loads
+# ananicy-cpp 1.4.0 or newer (github.com/WhitePeace36/ananicy-cpp-lunar) loads
 # /usr/share/ananicy.d first and /etc/ananicy.d after it, so everything you
 # change in /etc/ananicy.d (by hand or with AnanicyConfigurator) replaces the
 # packaged definition and is never touched by an update of this package.
