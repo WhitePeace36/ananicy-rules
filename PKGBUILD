@@ -1,43 +1,38 @@
 # Maintainer: Timon <timon2201@gmail.com>
 #
 # Installs everything under ./ananicy.d/ (next to this PKGBUILD) into
-# /etc/ananicy.d/, keeping the exact same directory layout.
+# /usr/share/ananicy.d/, keeping the exact same directory layout.
 #
-#   ./ananicy.d/00-types.types              -> /etc/ananicy.d/00-types.types
-#   ./ananicy.d/00-default/games/foo.rules  -> /etc/ananicy.d/00-default/games/foo.rules
+#   ./ananicy.d/99-types.types          -> /usr/share/ananicy.d/99-types.types
+#   ./ananicy.d/99-rules/Game.rules     -> /usr/share/ananicy.d/99-rules/Game.rules
+#
+# ananicy-cpp 1.4.0 or newer (github.com/WhitePeace36/ananicy-cpp) loads
+# /usr/share/ananicy.d first and /etc/ananicy.d after it, so everything you
+# change in /etc/ananicy.d (by hand or with AnanicyConfigurator) replaces the
+# packaged definition and is never touched by an update of this package.
 
 pkgname=ananicy-rules-custom
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Custom rules, types and cgroups for ananicy / ananicy-cpp"
 arch=('any')
 url='https://github.com/WhitePeace36/ananicy-rules'
 license=('GPL-2.0-only')
-optdepends=('ananicy-cpp: daemon that applies these rules')
+# older ananicy-cpp versions (and the original ananicy) only read /etc/ananicy.d
+depends=('ananicy-cpp>=1.4.0')
 
 # Local folder holding the rules (relative to this PKGBUILD)
 _rulesdir="ananicy.d"
 
-# Mark every shipped file as a config file, so pacman keeps your local edits
-# on upgrade (it writes .pacnew instead of overwriting). Generated from the
-# folder contents, so you never have to maintain this list by hand.
-backup=()
-if [[ -d "$startdir/$_rulesdir" ]]; then
-  while IFS= read -r -d '' _f; do
-    backup+=("etc/ananicy.d/${_f#./}")
-  done < <(cd "$startdir/$_rulesdir" && find . -type f -print0 | sort -z)
-fi
-
 package() {
   local src="$startdir/$_rulesdir"
-  local dest="$pkgdir/etc/ananicy.d"
+  local dest="$pkgdir/usr/share/ananicy.d"
 
   if [[ ! -d "$src" ]]; then
     error "Rules folder not found: $src"
     return 1
   fi
 
-  # Create /etc/ananicy.d itself (pacman creates it on install if missing)
   install -dm755 "$dest"
 
   cd "$src"
