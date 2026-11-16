@@ -43,4 +43,8 @@ After changing rules, bump `pkgrel` (or `pkgver`) in the PKGBUILD and run
 - If a file path clashes with one shipped by another package (for example
   another rules package in `/usr/share/ananicy.d`), pacman refuses to install
   it. Rename the file or put it in its own subfolder.
+- Only one rule set at a time: the package conflicts with the other rules
+  packages (`lunar-ananicy-rules`, `cachyos-ananicy-rules` and its `-git`
+  version, `ananicy-rules`, …), so pacman offers to replace them. CachyOS's
+  rules would otherwise sit in `/etc/ananicy.d` and override these.
 - Clean uninstall: `sudo pacman -R ananicy-rules-custom`

@@ -13,13 +13,19 @@
 
 pkgname=ananicy-rules-custom
 pkgver=1.0.0
-pkgrel=2
+pkgrel=3
 pkgdesc="Custom rules, types and cgroups for ananicy / ananicy-cpp"
 arch=('any')
 url='https://github.com/WhitePeace36/ananicy-rules'
 license=('GPL-2.0-only')
 # older ananicy-cpp versions (and the original ananicy) only read /etc/ananicy.d
 depends=('ananicy-cpp>=1.4.0')
+# One rule set at a time: another one in /usr/share/ananicy.d clashes with these files, one in
+# /etc/ananicy.d (cachyos-ananicy-rules) would override them. cachyos-ananicy-rules-git provides
+# cachyos-ananicy-rules; the CachyOS repo's cachyos-ananicy-rules provides ananicy-rules-git.
+provides=('ananicy-rules')
+conflicts=('ananicy-rules' 'ananicy-rules-git' 'ananicy-cpp-rules' 'cachyos-ananicy-rules'
+           'lunar-ananicy-rules')
 
 # Local folder holding the rules (relative to this PKGBUILD)
 _rulesdir="ananicy.d"
