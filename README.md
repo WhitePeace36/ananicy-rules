@@ -1,7 +1,9 @@
-# ananicy-rules-custom
+# lunar-ananicy-rules
 
-Packages your own ananicy rules as an Arch package. Everything inside
-`ananicy.d/` gets installed into `/usr/share/ananicy.d/` with the same layout.
+Lunar's ananicy-cpp rules, tuned for the Elara scheduler. The PKGBUILD here builds the
+`lunar-ananicy-rules` package from this checkout (LunarOs builds the same package from the
+release tags). Everything inside `ananicy.d/` gets installed into `/usr/share/ananicy.d/` with
+the same layout.
 
 ```
 ananicy.d/
@@ -12,8 +14,7 @@ ananicy.d/
 ```
 
 It needs [ananicy-cpp](https://github.com/WhitePeace36/ananicy-cpp) 1.4.0 or newer, which loads
-`/usr/share/ananicy.d` first and `/etc/ananicy.d` after it. Lunar ships these rules as
-`lunar-ananicy-rules`.
+`/usr/share/ananicy.d` first and `/etc/ananicy.d` after it.
 
 ## Usage
 
@@ -26,8 +27,9 @@ make build          # = makepkg -f   (just build the .pkg.tar.zst)
 sudo systemctl restart ananicy-cpp   # load the new rules
 ```
 
-After changing rules, bump `pkgrel` (or `pkgver`) in the PKGBUILD and run
-`make install` again.
+After changing rules, run `make install` again (it rebuilds and reinstalls the same version).
+`pkgrel` stays at 1, so the package from the `[lunar]` repository is never older than a local
+build: `pacman -Syu` switches to it once a newer release is published.
 
 ## Notes
 
@@ -44,7 +46,8 @@ After changing rules, bump `pkgrel` (or `pkgver`) in the PKGBUILD and run
   another rules package in `/usr/share/ananicy.d`), pacman refuses to install
   it. Rename the file or put it in its own subfolder.
 - Only one rule set at a time: the package conflicts with the other rules
-  packages (`lunar-ananicy-rules`, `cachyos-ananicy-rules` and its `-git`
-  version, `ananicy-rules`, …), so pacman offers to replace them. CachyOS's
-  rules would otherwise sit in `/etc/ananicy.d` and override these.
-- Clean uninstall: `sudo pacman -R ananicy-rules-custom`
+  packages (`cachyos-ananicy-rules` and its `-git` version, `ananicy-rules`, …)
+  and with `ananicy-rules-custom`, its old name, so pacman offers to replace
+  them. CachyOS's rules would otherwise sit in `/etc/ananicy.d` and override
+  these.
+- Clean uninstall: `sudo pacman -R lunar-ananicy-rules`
