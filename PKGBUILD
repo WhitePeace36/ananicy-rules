@@ -16,7 +16,7 @@
 # packaged definition and is never touched by an update of this package.
 
 pkgname=lunar-ananicy-rules
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc='Lunar - ananicy-cpp rules tuned for the Elara scheduler'
 arch=('any')
