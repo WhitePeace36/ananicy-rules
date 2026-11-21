@@ -44,7 +44,6 @@
 { "name": "xmobar", "type": "Service" }
 { "name": "clangd", "type": "Service" }
 { "name": "ion.clangd.main", "type": "Service" }
-{ "name": "input-remapper-service", "type": "Service" }
 { "name": "ArcOverlay.exe", "type": "Service" }
 { "name": "srcds_linux", "type": "Service" }
 { "name": "srcds_run", "type": "Service" }
@@ -189,3 +188,14 @@
 { "name": "podman", "type": "Service" }
 { "name": "wl-copy", "type": "Service" }
 { "name": "wl-paste", "type": "Service" }
+{ "name": "smbd", "type": "Service" }
+{ "name": "nmbd", "type": "Service" }
+{ "name": "amazon-cloudwatch-agent", "type": "Service" }
+{ "name": "nginx", "type": "Service" }
+{ "name": "MistOutTSSRT", "type": "Service" }
+{ "name": "MistOutRTMP", "type": "Service" }
+{ "name": "MistOutRTSP", "type": "Service" }
+{ "name": "MistOutHTTP", "type": "Service" }
+{ "name": "MistOutWEBRTC", "type": "Service" }
+{ "name": "MistOutMP4", "type": "Service" }
+{ "name": "MistOutDTSC", "type": "Service" }

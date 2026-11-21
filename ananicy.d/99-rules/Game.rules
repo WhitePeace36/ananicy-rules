@@ -13526,7 +13526,6 @@
 { "name": "RustClient.exe", "type": "Game" }
 { "name": "FragPunk.exe", "type": "Game" }
 { "name": "Marvel-Win64-Shipping.exe", "type": "Game" }
-{ "name": "wireplumber", "type": "Game" }
 { "name": "DeltaForceClient-Win64-Shipping.exe", "type": "Game" }
 { "name": "blastem", "type": "Game" }
 { "name": "cen64", "type": "Game" }
@@ -13546,3 +13545,7 @@
 { "name": "yuzu", "type": "Game" }
 { "name": "reaper", "type": "Game" }
 { "name": "obse_loader.exe", "type": "Game" }
+{ "name": "gamescope", "type": "Game" }
+{ "name": "gamescope-wl", "type": "Game" }
+{ "name": "gamescopereaper", "type": "Game" }
+{ "name": "wireplumber", "type": "Game" }

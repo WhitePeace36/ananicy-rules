@@ -7,3 +7,4 @@
 { "name": "Xwayland", "type": "LC" }
 { "name": "wineserver", "type": "LC" }
 { "name": "thrash-protect", "type": "LC", "ioclass": "realtime" }
+{ "name": "Xorg", "type": "LC" }

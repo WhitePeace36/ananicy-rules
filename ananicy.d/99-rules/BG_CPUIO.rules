@@ -1542,7 +1542,6 @@
 { "name": "asusd", "type": "BG_CPUIO" }
 { "name": "asusd-user", "type": "BG_CPUIO" }
 { "name": "avahi-daemon", "type": "BG_CPUIO" }
-{ "name": "bluetoothd", "type": "BG_CPUIO" }
 { "name": "obexd", "type": "BG_CPUIO" }
 { "name":"ghelper", "type":"BG_CPUIO" }
 { "name": "ipfs", "type": "BG_CPUIO" }

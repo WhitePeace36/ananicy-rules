@@ -1,6 +1,5 @@
 { "type": "Game", "nice": -5, "sched": "normal", "ioclass": "none" }
 { "type": "Normal", "nice": 0, "sched": "normal", "ioclass": "none" }
-{ "type": "LowLatency_RT", "nice": 0 }
 { "type": "LC", "nice": -12, "sched": "normal", "ioclass": "best-effort" }
 { "type": "BG_CPUIO", "nice": 16, "ioclass": "idle", "sched": "idle" }
 { "type": "BG_CPU", "nice": 14, "ioclass": "none", "sched": "idle" }
