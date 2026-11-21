@@ -31,6 +31,36 @@ After changing rules, run `make install` again (it rebuilds and reinstalls the s
 `pkgrel` stays at 1, so the package from the `[lunar]` repository is never older than a local
 build: `pacman -Syu` switches to it once a newer release is published.
 
+## Priority levels
+
+| type        | nice | sched  | IO class     | for |
+|-------------|------|--------|--------------|-----|
+| `LC`        | -12  | normal | best-effort  | only audio servers (pipewire, pipewire-pulse, pulseaudio), the display server/compositor (kwin, Xwayland, Xorg) and wineserver |
+| `Game`      | -5   | normal | follows nice | games and what runs them (Steam's `reaper`, gamescope, Proton), wireplumber |
+| `Normal`    | 0    | normal | follows nice | everything interactive (browsers, terminals, the desktop shell); resets what was inherited |
+| `Heavy_CPU` | 10   | —      | follows nice | heavy but interactive programs (IDEs, blender, VMs) |
+| `Service`   | 10   | normal | follows nice | daemons |
+| `BG_CPU`    | 15   | batch  | follows nice | compilers, build tools, encoders, compressors |
+| `Launcher`  | 16   | normal | idle         | game launchers: only used briefly, busy in the background otherwise |
+| `BG_CPUIO`  | 16   | idle   | idle         | greeters and display manager daemons (not needed after login), sync, backup, indexing |
+| `OOM_KILL` / `OOM_NO_KILL` | | |             | only set `oom_score_adj` |
+
+`98-compat.types` keeps the old type names (`Doc-View`, `Chat`, `Image-View`, `Player-Audio`,
+`Player-Video`, `IN_DIFF`, `LowLatency_RT`) with the values of `Normal` for rules in
+`/etc/ananicy.d`.
+
+Things to keep in mind when adding rules:
+
+- Children inherit nice, scheduling class and IO class. A rule on a process that starts others
+  (a display manager, a session manager, a launcher, a wrapper like `bwrap`) applies to everything
+  below it that has no rule of its own. That is why the per-session helpers of the display
+  managers (`sddm-helper`, `gdm-session-worker`, `lightdm --session-child`, ...) are `Normal`
+  while the display managers themselves are `BG_CPUIO`.
+- The name is the basename of `argv[0]`. For a script that is the interpreter (`bash`,
+  `python3`), so a rule for the script's name never matches: use `cmdline_contains` on the
+  interpreter instead, e.g. `{ "name": "python3", "cmdline_contains": "bin/lutris", "type": "Launcher" }`.
+  Never add a rule for a shell or a language runtime itself: it would match every script.
+
 ## Notes
 
 - Your own changes go to `/etc/ananicy.d/`, never into `/usr/share/ananicy.d/`:
