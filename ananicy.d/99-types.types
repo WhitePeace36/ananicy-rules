@@ -2,9 +2,9 @@
 { "type": "Normal", "nice": 0, "sched": "normal", "ioclass": "none" }
 { "type": "LC", "nice": -12, "sched": "normal", "ioclass": "best-effort" }
 { "type": "BG_CPUIO", "nice": 16, "ioclass": "idle", "sched": "idle" }
-{ "type": "BG_CPU", "nice": 14, "ioclass": "none", "sched": "idle" }
+{ "type": "BG_CPU", "nice": 15, "sched": "batch", "ioclass": "none" }
 { "type": "Launcher", "nice": 16, "ioclass": "idle", "sched": "normal" }
-{ "type": "Heavy_CPU", "nice": 9, "ioclass": "none" }
+{ "type": "Heavy_CPU", "nice": 10, "ioclass": "none" }
 { "type": "Service", "nice": 10, "sched": "normal", "ioclass": "none" }
 { "type": "OOM_KILL", "oom_score_adj": 1000 }
 { "type": "OOM_NO_KILL", "oom_score_adj": -1000 }

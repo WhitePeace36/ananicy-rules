@@ -11,7 +11,6 @@
 { "name": "dart", "type": "Heavy_CPU" }
 { "name": "Unity", "type": "Heavy_CPU" }
 { "name": "Path of Building.exe", "type": "Heavy_CPU" }
-{ "name": "boinc", "type": "Heavy_CPU" }
 { "name": "openscad", "type": "Heavy_CPU" }
 { "name": "dupeguru", "type": "Heavy_CPU" }
 { "name": "idea", "type": "Heavy_CPU" }
@@ -25,7 +24,6 @@
 { "name": "rubymine", "type": "Heavy_CPU" }
 { "name": "datagrip", "type": "Heavy_CPU" }
 { "name": "rustrover", "type": "Heavy_CPU" }
-{ "name": "FAHClient", "type": "Heavy_CPU" }
 { "name": "ffmpeg", "type": "Heavy_CPU" }
 { "name": "qemu-system-x86", "type": "Heavy_CPU" }
 { "name": "qemu-system-x86_64", "type": "Heavy_CPU" }

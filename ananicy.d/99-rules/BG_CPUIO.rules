@@ -50,7 +50,6 @@
 { "name": "nil", "type": "BG_CPUIO" }
 { "name": "nixpkgs-review", "type": "BG_CPUIO" }
 { "name": "nh", "type": "BG_CPUIO" }
-{ "name": "node", "type": "BG_CPUIO" }
 { "name": "rsession", "type": "BG_CPUIO" }
 { "name": "sqlitebrowser", "type": "BG_CPUIO" }
 { "name": "ArchiSteamFarm", "type": "BG_CPUIO" }
@@ -1572,7 +1571,6 @@
 { "name": "tiny-rdm", "type": "BG_CPUIO" }
 { "name": "unison", "type": "BG_CPUIO" }
 { "name": "xarchiver", "type": "BG_CPUIO" }
-{ "name": "7z", "type": "BG_CPUIO" }
 { "name": "7z.exe", "type": "BG_CPUIO" }
 { "name": "alarm-clock", "type": "BG_CPUIO" }
 { "name": "auto-cpufreq", "type": "BG_CPUIO" }
@@ -1594,7 +1592,6 @@
 { "name": "chrome_crashpad_handler", "type": "BG_CPUIO" }
 { "name": "msedge_crashpad", "type": "BG_CPUIO" }
 { "name": "CoherentUI_Host.exe", "type": "BG_CPUIO" }
-{ "name": "make", "type": "BG_CPUIO" }
 { "name": "ananicy-cpp", "type": "BG_CPUIO" }
 { "name": "Battle.net.exe", "type": "BG_CPUIO" }
 { "name": "Battle.net Launcher.exe", "type": "BG_CPUIO" }
@@ -1614,3 +1611,5 @@
 { "name": "slick-greeter", "type": "BG_CPUIO" }
 { "name": "agreety", "type": "BG_CPUIO" }
 { "name": "gtkgreet", "type": "BG_CPUIO" }
+{ "name": "boinc", "type": "BG_CPUIO" }
+{ "name": "FAHClient", "type": "BG_CPUIO" }
