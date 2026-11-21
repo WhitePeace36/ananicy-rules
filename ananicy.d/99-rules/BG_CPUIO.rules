@@ -15,7 +15,6 @@
 { "name": "gammastep", "type": "BG_CPUIO" }
 { "name": "gammastep-indicator", "type": "BG_CPUIO" }
 { "name": "gdm3", "type": "BG_CPUIO" }
-{ "name": "gdm", "type": "BG_CPUIO" }
 { "name": "gdm-wayland-session", "type": "BG_CPUIO" }
 { "name": "bazaar", "type": "BG_CPUIO" }
 { "name": "wlgreet", "type": "BG_CPUIO" }
@@ -32,11 +31,9 @@
 { "name": "wlsunset", "type": "BG_CPUIO" }
 { "name": "wpaperd", "type": "BG_CPUIO" }
 { "name": "bruno", "type": "BG_CPUIO" }
-{ "name": "bun", "type": "BG_CPUIO" }
 { "name": "clang-tidy", "type": "BG_CPUIO" }
 { "name": "cmake-gui", "type": "BG_CPUIO" }
 { "name": "deno", "type": "BG_CPUIO" }
-{ "name": "R", "type": "BG_CPUIO" }
 { "name": "MongoDB Compass", "type": "BG_CPUIO" }
 { "name": "mysql-workbench", "type": "BG_CPUIO" }
 { "name": "mysql-workbench-bin", "type": "BG_CPUIO" }
@@ -107,7 +104,6 @@
 { "name": "CW3Launch", "type": "BG_CPUIO" }
 { "name": "VRCVideoCacher", "type": "BG_CPUIO" }
 { "name": "Mod Manager", "type": "BG_CPUIO" }
-{ "name": "AppRun", "type": "BG_CPUIO" }
 { "name": "Gladius", "type": "BG_CPUIO" }
 { "name": "launcher", "type": "BG_CPUIO" }
 { "name": "mednaffe", "type": "BG_CPUIO" }
@@ -1584,7 +1580,6 @@
 { "name": "rsync", "type": "BG_CPUIO" }
 { "name": "smartd", "type": "BG_CPUIO" }
 { "name": "thinkfan", "type": "BG_CPUIO" }
-{ "name": "tlp", "type": "BG_CPUIO" }
 { "name": "tlp-rdw", "type": "BG_CPUIO" }
 { "name": "tlp-stat", "type": "BG_CPUIO" }
 { "name": "uptimed", "type": "BG_CPUIO" }
@@ -1612,3 +1607,4 @@
 { "name": "gtkgreet", "type": "BG_CPUIO" }
 { "name": "boinc", "type": "BG_CPUIO" }
 { "name": "FAHClient", "type": "BG_CPUIO" }
+{ "name": "gdm", "type": "BG_CPUIO" }

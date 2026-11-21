@@ -163,3 +163,4 @@
 { "name": "tuned", "type": "Service" }
 { "name": "tuned-ppd", "type": "Service" }
 { "name": "power-profiles-daemon", "type": "Service" }
+{ "name": "tlp", "type": "Service" }
