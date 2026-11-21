@@ -1546,7 +1546,6 @@
 { "name":"ghelper", "type":"BG_CPUIO" }
 { "name": "ipfs", "type": "BG_CPUIO" }
 { "name": "crashhelper", "type": "BG_CPUIO" }
-{ "name": "NetworkManager", "type": "BG_CPUIO" }
 { "name": "openrazer-daemon", "type": "BG_CPUIO" }
 { "name" : "protonmail-bridge", "type": "BG_CPUIO" }
 { "name" : "bridge", "type": "BG_CPUIO" }
@@ -1585,16 +1584,12 @@
 { "name": "Grabber", "type": "BG_CPUIO" }
 { "name": "meld", "type": "BG_CPUIO" }
 { "name": "openrgb", "type": "BG_CPUIO" }
-{ "name": "power-profiles-daemon", "type": "BG_CPUIO" }
 { "name": "rsync", "type": "BG_CPUIO" }
 { "name": "smartd", "type": "BG_CPUIO" }
-{ "name": "thermald", "type": "BG_CPUIO" }
 { "name": "thinkfan", "type": "BG_CPUIO" }
 { "name": "tlp", "type": "BG_CPUIO" }
 { "name": "tlp-rdw", "type": "BG_CPUIO" }
 { "name": "tlp-stat", "type": "BG_CPUIO" }
-{ "name": "tuned", "type": "BG_CPUIO" }
-{ "name": "tuned-ppd", "type": "BG_CPUIO" }
 { "name": "uptimed", "type": "BG_CPUIO" }
 { "name": "chrome_crashpad_handler", "type": "BG_CPUIO" }
 { "name": "msedge_crashpad", "type": "BG_CPUIO" }
