@@ -1,4 +1,4 @@
-{ "type": "Game", "nice": -5, "sched": "normal" }
+{ "type": "Game", "nice": -5, "sched": "normal", "ioclass": "none" }
 { "type": "Normal", "nice": 0, "sched": "normal", "ioclass": "none" }
 { "type": "LowLatency_RT", "nice": 0 }
 { "type": "LC", "nice": -12, "sched": "normal", "ioclass": "best-effort" }

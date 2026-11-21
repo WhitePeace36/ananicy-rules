@@ -22,3 +22,5 @@
 { "name": "alvr-launcher", "type": "Launcher" }
 { "name": "samp.exe", "type": "Launcher" }
 { "name": "nikke_launcher.exe", "type": "Launcher" }
+{ "name": "heroic", "type": "Launcher" }
+{ "name": "lutris", "type": "Launcher" }

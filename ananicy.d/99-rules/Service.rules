@@ -45,7 +45,6 @@
 { "name": "clangd", "type": "Service" }
 { "name": "ion.clangd.main", "type": "Service" }
 { "name": "input-remapper-service", "type": "Service" }
-{ "name": "heroic", "type": "Service" }
 { "name": "ArcOverlay.exe", "type": "Service" }
 { "name": "srcds_linux", "type": "Service" }
 { "name": "srcds_run", "type": "Service" }
@@ -148,7 +147,6 @@
 { "name": "gvfs-mtp-volume-monitor", "type": "Service" }
 { "name": "gvfs-udisks2-volume-monitor", "type": "Service" }
 { "name": "kde-material-you-colors", "type": "Service" }
-{ "name": "bwrap", "type": "Service" }
 { "name": "devmon", "type": "Service" }
 { "name": "fsnotifier", "type": "Service" }
 { "name": "udevil", "type": "Service" }
@@ -188,7 +186,6 @@
 { "name": "xdg-permission-store", "type": "Service" }
 { "name": "xmousepasteblock", "type": "Service" }
 { "name": "clamui", "type": "Service" }
-{ "name": "distrobox", "type": "Service" }
 { "name": "podman", "type": "Service" }
 { "name": "wl-copy", "type": "Service" }
 { "name": "wl-paste", "type": "Service" }

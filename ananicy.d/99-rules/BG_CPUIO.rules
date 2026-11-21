@@ -17,7 +17,6 @@
 { "name": "gdm3", "type": "BG_CPUIO" }
 { "name": "gdm", "type": "BG_CPUIO" }
 { "name": "gdm-wayland-session", "type": "BG_CPUIO" }
-{ "name": "gnome-session-ctl","type": "BG_CPUIO"}
 { "name": "bazaar", "type": "BG_CPUIO" }
 { "name": "wlgreet", "type": "BG_CPUIO" }
 { "name": "gtkgreet", "type": "BG_CPUIO" }
@@ -30,9 +29,6 @@
 { "name": "baloo_file", "type": "BG_CPUIO" }
 { "name": "baloorunner", "type": "BG_CPUIO" }
 { "name": "baloo_file_extractor", "type": "BG_CPUIO" }
-{ "name": "kded6", "type": "BG_CPUIO" }
-{ "name": "kaccess", "type": "BG_CPUIO" }
-{ "name": "ksmserver", "type": "BG_CPUIO" }
 { "name": "redshift", "type": "BG_CPUIO" }
 { "name": "wlsunset", "type": "BG_CPUIO" }
 { "name": "wpaperd", "type": "BG_CPUIO" }
@@ -165,7 +161,6 @@
 { "name": "Necromunda.exe", "type": "BG_CPUIO"}
 { "name": "NotesOfSoul.exe", "type": "BG_CPUIO" }
 { "name": "OblivionLauncher.exe", "type": "BG_CPUIO" }
-{ "name": "obse_loader.exe", "type": "BG_CPUIO" }
 { "name": "Octopath_Traveler0.exe", "type": "BG_CPUIO" }
 { "name": "Panicore.exe", "type": "BG_CPUIO" }
 { "name": "PCM.exe", "type": "BG_CPUIO" }

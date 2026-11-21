@@ -271,7 +271,6 @@
 { "name": "bitwig-studio", "type": "Normal" }
 { "name": "BitwigStudioEngine", "type": "Normal" }
 { "name": "lmms", "type": "Normal" }
-{ "name": "reaper", "type": "Normal" }
 { "name": "helgobox", "type": "Normal" }
 { "name": "KholorsStation", "type": "Normal" }
 { "name": "tidal-hifi", "type": "Normal" }
@@ -308,3 +307,9 @@
 { "name": "explorer.exe", "type": "Normal" }
 { "name": "winedevice.exe", "type": "Normal" }
 { "name": "plugplay.exe", "type": "Normal" }
+{ "name": "ksmserver", "type": "Normal" }
+{ "name": "gnome-session-ctl", "type": "Normal" }
+{ "name": "kded6", "type": "Normal" }
+{ "name": "kaccess", "type": "Normal" }
+{ "name": "bwrap", "type": "Normal" }
+{ "name": "distrobox", "type": "Normal" }

@@ -13544,3 +13544,5 @@
 { "name": "PPSSPPSDL", "type": "Game" }
 { "name": "rpcs3", "type": "Game" }
 { "name": "yuzu", "type": "Game" }
+{ "name": "reaper", "type": "Game" }
+{ "name": "obse_loader.exe", "type": "Game" }
