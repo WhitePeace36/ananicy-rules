@@ -36,7 +36,6 @@
 { "name": "BackpackBattles.x86_64", "type": "Game" }
 { "name": "BALDI.x86_64", "type": "Game" }
 { "name": "BaldursGate", "type": "Game" }
-{ "name": "benchmark.sh", "type": "Game" }
 { "name": "berkelium", "type": "Game" }
 { "name": "cefsimple", "type": "Game" }
 { "name": "Chowdren", "type": "Game" }
@@ -100,7 +99,6 @@
 { "name": "songsofsyx", "type": "Game" }
 { "name": "srcds_linux64", "type": "Game" }
 { "name": "stanley", "type": "Game" }
-{ "name": "start", "type": "Game" }
 { "name": "StoneShard", "type": "Game" }
 { "name": "Substance Painter", "type": "Game" }
 { "name": "testandlaunch", "type": "Game" }
@@ -1106,7 +1104,6 @@
 { "name": "Littlewood.x86_64", "type": "Game" }
 { "name": "Log Riders.x86_64", "type": "Game" }
 { "name": "LongLiveTheQueen", "type": "Game" }
-{ "name": "luisoac.sh", "type": "Game" }
 { "name": "Loop_Hero", "type": "Game" }
 { "name": "LORED.x86_64", "type": "Game" }
 { "name": "LornsLureLinux.x86_64", "type": "Game" }
@@ -1118,7 +1115,7 @@
 { "name": "Love, Money, Rock-n-Roll.x86_64", "type": "Game" }
 { "name": "LoversInADangerousSpacetime.x86", "type": "Game" }
 { "name": "LoversInADangerousSpacetime.x86_64", "type": "Game" }
-{ "name": "lsfg-vk-ui ", "type": "Game" }
+{ "name": "lsfg-vk-ui", "type": "Game" }
 { "name": "luanti", "type": "Game" }
 { "name": "luanti.bin", "type": "Game" }
 { "name": "Luck be a Landlord.x86_64", "type": "Game" }
@@ -13510,7 +13507,6 @@
 { "name": "BlackOps4.exe", "type": "Game" }
 { "name": "HaloInfinite.exe", "type": "Game" }
 { "name": "HogwartsLegacy.exe", "type": "Game" }
-{ "name": "main", "type": "Game" }
 { "name": "cs2", "type": "Game" }
 { "name": "blackdesert64.exe", "type": "Game" }
 { "name": "GameThread", "type": "Game" }
@@ -13549,3 +13545,5 @@
 { "name": "gamescope-wl", "type": "Game" }
 { "name": "gamescopereaper", "type": "Game" }
 { "name": "wireplumber", "type": "Game" }
+{ "name": "python3", "cmdline_contains": ["/proton", "run"], "type": "Game" }
+{ "name": "python3", "cmdline_contains": "bin/umu-run", "type": "Game" }

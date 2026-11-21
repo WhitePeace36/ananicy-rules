@@ -3,12 +3,11 @@
 { "name": "EALauncher.exe", "type": "Launcher" }
 { "name": "modrinth-app", "type": "Launcher" }
 { "name": "modrinth-app-wrapped", "type": "Launcher" }
-{ "name": "bottles", "type": "Launcher" }
 { "name": "steam", "type": "Launcher" }
-{ "name": "steam.sh", "type": "Launcher" }
 { "name": "Steam.exe", "type": "Launcher" }
 { "name": "alvr-launcher", "type": "Launcher" }
 { "name": "samp.exe", "type": "Launcher" }
 { "name": "nikke_launcher.exe", "type": "Launcher" }
 { "name": "heroic", "type": "Launcher" }
-{ "name": "lutris", "type": "Launcher" }
+{ "name": "python3", "cmdline_contains": "bin/lutris", "type": "Launcher" }
+{ "name": "python3", "cmdline_contains": "bin/bottles", "type": "Launcher" }

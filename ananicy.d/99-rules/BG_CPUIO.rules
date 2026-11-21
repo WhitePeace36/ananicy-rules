@@ -1523,7 +1523,6 @@
 { "name": "qbittorrent-nox", "type": "BG_CPUIO" }
 { "name": "rclone", "type": "BG_CPUIO" }
 { "name": "rtorrent", "type": "BG_CPUIO" }
-{ "name": "SABnzbd.py", "type": "BG_CPUIO" }
 { "name": "ssh-agent", "type": "BG_CPUIO" }
 { "name": "sshd", "type": "Normal" }
 { "name": "sshd-session", "type": "Normal" }

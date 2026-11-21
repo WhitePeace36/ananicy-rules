@@ -58,13 +58,7 @@
 { "name": "DesktopEditors", "type": "Normal" }
 { "name": "quiterss", "type": "Normal" }
 { "name": "zim", "type": "Normal" }
-{ "name": "bash", "type": "Normal" }
-{ "name": "dash", "type": "Normal" }
-{ "name": "fish", "type": "Normal" }
 { "name": "guake", "type": "Normal" }
-{ "name": "ksh", "type": "Normal" }
-{ "name": "nu", "type": "Normal" }
-{ "name": "tcsh", "type": "Normal" }
 { "name": "konsole", "type": "Normal" }
 { "name": "yakuake", "type": "Normal" }
 { "name": "st", "type": "Normal" }
@@ -90,7 +84,6 @@
 { "name": "tmux", "type": "Normal" }
 { "name": "lf", "type": "Normal" }
 { "name": "ranger", "type": "Normal" }
-{ "name": "zsh", "type": "Normal" }
 { "name": "anytype", "type": "Normal" }
 { "name": "anytypeHelper", "type": "Normal" }
 { "name": "atom", "type": "Normal" }
@@ -130,7 +123,6 @@
 { "name": "gnome-system-monitor", "type": "Normal" }
 { "name": "missioncenter", "type": "Normal" }
 { "name": "missioncenter-gatherer", "type": "Normal" }
-{ "name": "/opt/brave-bin/brave", "type": "Normal" }
 { "name": "brave", "type": "Normal" }
 { "name": "brave-bin", "type": "Normal" }
 { "name": "brave-browser", "type": "Normal" }
@@ -290,7 +282,6 @@
 { "name": "plexmediaplayer", "type": "Normal" }
 { "name": "smplayer", "type": "Normal" }
 { "name": "sopcast-player", "type": "Normal" }
-{ "name": "sopcast-player.py", "type": "Normal" }
 { "name": "stremio", "type": "Normal" }
 { "name": "totem", "type": "Normal" }
 { "name": "vlc", "type": "Normal" }
@@ -312,7 +303,6 @@
 { "name": "kded6", "type": "Normal" }
 { "name": "kaccess", "type": "Normal" }
 { "name": "bwrap", "type": "Normal" }
-{ "name": "distrobox", "type": "Normal" }
 { "name": "sddm-helper", "type": "Normal" }
 { "name": "plasmalogin-helper", "type": "Normal" }
 { "name": "gdm-session-worker", "type": "Normal" }

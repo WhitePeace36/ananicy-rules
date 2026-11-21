@@ -31,10 +31,6 @@
 { "name": "cargo", "type": "BG_CPU" }
 { "name": "ccache", "type": "BG_CPU" }
 { "name": "sccache", "type": "BG_CPU" }
-{ "name": "makepkg", "type": "BG_CPU" }
-{ "name": "dkms", "type": "BG_CPU" }
-{ "name": "mkinitcpio", "type": "BG_CPU" }
-{ "name": "dracut", "type": "BG_CPU" }
 { "name": "xz", "type": "BG_CPU" }
 { "name": "zstd", "type": "BG_CPU" }
 { "name": "pzstd", "type": "BG_CPU" }
@@ -55,3 +51,7 @@
 { "name": "HandBrakeCLI", "type": "BG_CPU" }
 { "name": "ab-av1", "type": "BG_CPU" }
 { "name": "av1an", "type": "BG_CPU" }
+{ "name": "bash", "cmdline_contains": "bin/makepkg", "type": "BG_CPU" }
+{ "name": "bash", "cmdline_contains": "bin/mkinitcpio", "type": "BG_CPU" }
+{ "name": "bash", "cmdline_contains": "bin/dkms", "type": "BG_CPU" }
+{ "name": "bash", "cmdline_contains": "bin/dracut", "type": "BG_CPU" }
