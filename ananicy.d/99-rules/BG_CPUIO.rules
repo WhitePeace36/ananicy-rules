@@ -1532,8 +1532,8 @@
 { "name": "rtorrent", "type": "BG_CPUIO" }
 { "name": "SABnzbd.py", "type": "BG_CPUIO" }
 { "name": "ssh-agent", "type": "BG_CPUIO" }
-{ "name": "sshd", "type": "BG_CPUIO" }
-{ "name": "sshd-session", "type": "BG_CPUIO" }
+{ "name": "sshd", "type": "Normal" }
+{ "name": "sshd-session", "type": "Normal" }
 { "name": "ssh-tpm-agent", "type": "BG_CPUIO" }
 { "name": "syncthing", "type": "BG_CPUIO" }
 { "name": "syncthing-gtk", "type": "BG_CPUIO" }
