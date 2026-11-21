@@ -1,0 +1,6 @@
+{ "type": "Doc-View", "nice": 0, "sched": "normal", "ioclass": "none" }
+{ "type": "Chat", "nice": 0, "sched": "normal", "ioclass": "none" }
+{ "type": "Image-View", "nice": 0, "sched": "normal", "ioclass": "none" }
+{ "type": "Player-Audio", "nice": 0, "sched": "normal", "ioclass": "none" }
+{ "type": "Player-Video", "nice": 0, "sched": "normal", "ioclass": "none" }
+{ "type": "IN_DIFF", "nice": 0, "sched": "normal", "ioclass": "none" }

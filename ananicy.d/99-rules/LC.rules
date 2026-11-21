@@ -5,3 +5,5 @@
 { "name": "kwin_wayland_wrapper", "type": "LC" }
 { "name": "xwayland", "type": "LC" }
 { "name": "Xwayland", "type": "LC" }
+{ "name": "wineserver", "type": "LC" }
+{ "name": "thrash-protect", "type": "LC", "ioclass": "realtime" }
