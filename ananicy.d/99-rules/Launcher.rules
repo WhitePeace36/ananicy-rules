@@ -1,15 +1,3 @@
-{ "name": "gdm-session-worker", "type": "Launcher" }
-{ "name": "gnome-session-binary","type": "Launcher"}
-{ "name": "greetd", "type": "Launcher" }
-{ "name": "tuigreet", "type": "Launcher" }
-{ "name": "regreet", "type": "Launcher" }
-{ "name": "nwg-hello", "type": "Launcher" }
-{ "name": "lightdm", "type": "Launcher" }
-{ "name": "ly-dm", "type": "Launcher" }
-{ "name": "plasmalogin", "type": "Launcher" }
-{ "name": "plasmalogin-helper", "type": "Launcher" }
-{ "name": "sddm", "type": "Launcher" }
-{ "name": "sddm-helper", "type": "Launcher" }
 {"name" : "Hydra", "type": "Launcher"}
 { "name": "EpicGamesLauncher.exe", "type": "Launcher" }
 { "name": "EALauncher.exe", "type": "Launcher" }

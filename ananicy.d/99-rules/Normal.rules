@@ -313,3 +313,10 @@
 { "name": "kaccess", "type": "Normal" }
 { "name": "bwrap", "type": "Normal" }
 { "name": "distrobox", "type": "Normal" }
+{ "name": "sddm-helper", "type": "Normal" }
+{ "name": "plasmalogin-helper", "type": "Normal" }
+{ "name": "gdm-session-worker", "type": "Normal" }
+{ "name": "gnome-session-binary", "type": "Normal" }
+{ "name": "ly-dm", "type": "Normal" }
+{ "name": "lightdm", "cmdline_contains": "--session-child", "type": "Normal" }
+{ "name": "greetd", "cmdline_contains": "--session-worker", "type": "Normal" }
