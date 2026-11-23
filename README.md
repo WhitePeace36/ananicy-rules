@@ -45,9 +45,10 @@ build: `pacman -Syu` switches to it once a newer release is published.
 | `BG_CPUIO`  | 16   | idle   | idle         | greeters and display manager daemons (not needed after login), sync, backup, indexing |
 | `OOM_KILL` / `OOM_NO_KILL` | | |             | only set `oom_score_adj` |
 
-`98-compat.types` keeps the old type names (`Doc-View`, `Chat`, `Image-View`, `Player-Audio`,
-`Player-Video`, `IN_DIFF`, `LowLatency_RT`) with the values of `Normal` for rules in
-`/etc/ananicy.d`.
+The old type names `Doc-View`, `Chat`, `Image-View`, `Player-Audio`, `Player-Video`, `IN_DIFF`
+and `LowLatency_RT` no longer exist. ananicy skips a rule whose type is unknown, so a rule of
+your own in `/etc/ananicy.d` that still uses one of them needs a current type (`Normal` has the
+values they had).
 
 Things to keep in mind when adding rules:
 
